@@ -27,5 +27,5 @@ runs:
         org-name: '${{ inputs.org-name }}'
         cumulusci-version: '${{ inputs.cumulusci-version }}'
         sf-version: '${{ inputs.sf-version }}'
-        flow-name: ci_feature_2gp
+        flow-name: '${{ inputs.flow-name }}'
         delete-scratch-org: '${{ inputs.delete-scratch-org }}'
